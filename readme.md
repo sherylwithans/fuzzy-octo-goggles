@@ -9,9 +9,9 @@ WordPass uses Python 3.6
 
 ### New Features
 
-  - Contains Learning Mode and Quiz Mode
+  - Containing Learning Mode and Quiz Mode
   - Users can select the number of words to learn/be quizzed on.
-  - Users can view quiz results after each quiz session
+  - Users can view quiz results after each quiz session。
 
 ### Main Sections
 
@@ -38,13 +38,13 @@ If Anaconda is not installed, please ensure PyQt5 is installed in the system.
 $ sudo apt-get install -y python3-pip
 $ pip3 install pyqt5
 ```
-Please look at requirements.txt for more detailed inofmration.
+Please look at requirements.txt for more detailed information.
 
 ### Run Instructions
 
 Please ensure the file "vocabulary.csv" exists within the same directory as the program.
 
-After opening the interface, you can choose learning mode (Memorization Mode/Quiz Mode) and how many words are you going to learn from the drop down list. 
+After opening the interface, you can choose learning mode (Memorization Mode/Quiz Mode) and how many words you are going to learn from the drop down list. 
 
 By clicking the "Memorization" button, words along with their definitions will show up. You need to choose to what extent you know the given word and "WordPass" will save the infomation to memory for future learning. The flashcard will toggle between the word and its definition when clicked. The next word will be shown only after one of the buttons "I know this", "Familiar", "I don't know" is clicked.
 
